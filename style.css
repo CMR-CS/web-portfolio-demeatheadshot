@@ -1,0 +1,16 @@
+/* Base Styles*/
+* {
+   font-family: "Helvetica Neue", sans-serif, Arial;  
+}
+
+.btn.pod{
+    font-size: 13px;
+}
+
+    
+    
+#subtitle {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
