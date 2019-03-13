@@ -68,7 +68,7 @@ a:hover {
 .menu > li:last-of-type {
   margin-right: 0;
 }
-. dropdown:hover {
+.dropdown:hover .features-menu{
   display: flex;
   flex-direction: column;
   background: #B2D6FF;
@@ -91,11 +91,15 @@ a:hover {
 .features-menu li:last-of-type {
   border-bottom: none;
 }
-.dropdown {
+.dropdown > span {
   z-index: 2;
   position: relative;
   cursor: pointer;
 }
 .features-menu {                   
   display: none;
+} 
+
+.dropdown{
+    position: relative;
 }
